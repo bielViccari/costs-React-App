@@ -1,0 +1,58 @@
+.corpo {
+    margin-left: 17em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    
+    width: 26ch;
+    animation: typing 2s steps(40), blink .6s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+   
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.grupo_redes_sociais {
+    display: flex;
+    align-items: column;
+    justify-content: space-between;
+}
+
+.redes_sociais {
+    display: flex;
+    flex-direction: column;
+    margin:2em;
+    font-weight: bold;
+}
+
+.mini_logo {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5em;
+    padding-bottom: 0.2em;
+}
